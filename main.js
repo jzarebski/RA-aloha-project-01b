@@ -11,7 +11,7 @@ $(document).ready(function(){
 			601:{
 				items:2 
 			}, //from 600 to 1050 screen
-			1240:{ 
+			1050:{ 
 				items:4
 			} //from 1050 to 1240 screen
 		}

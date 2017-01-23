@@ -94,6 +94,10 @@ h1 {
 	display:block;
 }
 
+.line-break1 {
+	display:block;
+}
+
 .line-height {
 	line-height: 5vh
 }
@@ -158,6 +162,15 @@ h1 {
 
 }
 
+.parent {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.border-child {
+	border:5.5px solid white;
+}
+
 .category img {
 	object-fit:contain;
 	width: 100%;
@@ -165,8 +178,7 @@ h1 {
 }
 
 .flex-item2 {
-	display:inline-flex;
-	width:49.5%;
+	width:48%;
 	position:relative;
 
 
@@ -258,6 +270,10 @@ text-align:center;
 	padding-top:10%;
 }
 
+.padding-top-20	{
+	padding-top:20%;
+}
+
 .padding-top-30 {
 	padding-top:30%;
 }
@@ -291,13 +307,9 @@ text-align:center;
 }
 
 .socialicons{
-	text-align: center;
-
-}
+	display:inline-block;
 
 
-.socialicons li{
-	float: left;
 }
 
 .mobile {
@@ -311,7 +323,16 @@ text-align:center;
 	color:white;
 }
 
+.clearfix:after {
+	clear:both;
+	content:"";
+	display:block;
+}
 
+.socialicons ul {
+	display: inline-flex;
+    padding-right: 43%;
+}
 /*************/
 /*  SUBFORM  */
 /*************/
@@ -361,41 +382,89 @@ input[type=submit] {
 	background-color:black;
 }
 
-/*Address
-.address-mobile {
-	padding: 15px 20px;
-	font-size: 1rem;
-	width: 100%;
+
+    
+
+/**************************/
+/*  TABLET RESPONSIVE CSS */
+/**************************/
+@media only screen and (min-width:602px) 
+	{
+
+.border-top-small {
+	border-top:none;
+}
+
+.border-child {
+	border:none;
+}
+
+.mobile {
+	display:initial;
+    padding-top: 5%;
+    text-decoration: none;
+    color: white;
+}
+
+.address-footer{ 
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+
+}
+
+.mobile-align li{
+	margin: 2vh;
+}
+
+.socialicons{
 	text-align: center;
-	margin: 0 auto;
-	padding-bottom: 15px;
-}
-
-/* Social Media Icons
-.social-footer ul {
 
 }
 
-.socialicons {
-	padding-top: 5px;
-	margin-left: 3em;
-	line-height: 1.5rem;
-	text-decoration:none;
-
-}
-.socialicons a {
-	text-decoration:none
-}
-.socialicons span {
-	font-family: "raleway";
-}
-
-.fa {
-	color:white;
+.flex-container{
+	flex-wrap:nowrap;
 
 }
 
-ul {
-	padding-right: 2em
+.flex-item-nav {
+	order: 0;
+	width:100%;
+	transform: translate(-17px);
+    padding-top: 3%;
 }
-*/
+
+.aloha-logo img {
+	max-width:89%;
+}
+
+.cart img {
+	height:75%;
+	position:relative;
+}
+
+.flex-item2 {
+	display:inline-flex;
+	width:25%;
+	position:relative;
+
+}
+
+.flex-item1 {
+	display:inline-flex;
+	position:relative;
+	width:50%;
+}
+
+.padding-top-20 {
+    padding-top: 10%
+}
+
+.top {
+    padding-top: 15.5%;
+}
+
+.line-break1  {
+	display:inline;
+}
