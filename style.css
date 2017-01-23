@@ -39,6 +39,14 @@ p {
 	padding:10px;
 }
 
+.text-size-up-h3 {
+	font-size:2.75rem;
+}
+
+.text-size-up-p {
+	font-size:1.25rem;
+}
+
 /****************/
 /* TEXT STYLING */
 /****************/
@@ -91,7 +99,7 @@ h1 {
 }
 
 .colorgrey{
-	color: grey;
+	color:grey;
 }
 
 .colorflamingo {
@@ -135,7 +143,7 @@ h1 {
 /*************************/
 
 .category {
-	margin-top:5%;
+	margin-top:10%;
 
 }
 
@@ -206,6 +214,11 @@ h1 {
 	padding: 25px 0px;
 }
 
+
+/*****************/
+/* Padding Rules */
+/*****************/
+
 .top {
 	padding-top:25.5%;
 }
@@ -217,6 +230,10 @@ h1 {
 	padding-top:10%;
 }
 
+.padding-bot{
+	padding-bottom: 5%
+}
+
 /*****************/
 /* MARGINS RULES */
 /*****************/
@@ -226,3 +243,6 @@ h1 {
 /* OWL CAROUSEL */
 /****************/
 
+.products img{
+	width:50%;
+}

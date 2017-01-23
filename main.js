@@ -2,11 +2,13 @@ $(document).ready(function(){
 
 	$(".owl-carousel").owlCarousel({
 		items:1,
+		loop:true,
+		autoplay:true,
 		responsive : {
 			0:{ 
 				items:1 
 			}, //from zero to 600 screen
-			600:{
+			601:{
 				items:2 
 			}, //from 600 to 1050 screen
 			1240:{ 

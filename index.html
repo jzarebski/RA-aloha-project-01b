@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-        <script src="JavaScript/main.js"></script>
+        <script src="main.js"></script>
         <meta charset="utf-8">
     </head>
     <body>
@@ -27,8 +27,7 @@
                 		</ul>
                 	</div>
                 	<div class="cart"><img src="assets/images/cart-icon.svg" alt="cart-icon"></div>
-                </div>
-                <div>       
+                </div>       
         	</header>
         	<section>
         		<div id="banner">
@@ -38,14 +37,14 @@
                 	</div>
                 </div>
             </section>
-        	<section class="text-center padding-top-10">
-                    <h3 class="italic">Hand-Crafted <span class="bold">Styles</span></h3>
-                    <p class="line-height padding-top">Aloha Apparel Co. sells only the finest ready-to<span class="line-break"></span>-travel clothing. Browse our
+        	<section class="text-center padding-top-10 text-size-up">
+                    <h3 class="italic text-size-up-h3">Hand-Crafted <span class="bold">Styles</span></h3>
+                    <p class="line-height padding-top text-size-up-p">Aloha Apparel Co. sells only the finest ready-to<span class="line-break"></span>-travel clothing. Browse our
                     current selection of<span class="line-break"></span> or sign-up for updates below.</p>  
             </section>
             <section class="category margin white text-shadow">
                 <div>
-                    <div class="flex-item1" class=""><img src="assets/images/mens-category.jpg"><h1 class="cat-div">MEN'S</h1></div>
+                    <div class="flex-item1"><img src="assets/images/mens-category.jpg"><h1 class="cat-div">MEN'S</h1></div>
                     <div class="flex-item2"><img src="assets/images/trends-category.jpg"><h1 class="cat-div">TRENDS</h1></div>
                     <div class="flex-item2"><img src="assets/images/glasses-category.jpg"><h1 class="cat-div">GLASSES</h1></div>
                     <div class="flex-item2"><img src="assets/images/sale-category.jpg"><h1 class="cat-div">SALE</h1></div>
@@ -53,40 +52,67 @@
                     <div class="flex-item1"><img src="assets/images/womens-category.jpg"><h1 class="cat-div">WOMEN'S</h1></div>    
                 </div>
             </section>
-        	<section class="padding-top-10 text-center">
-                <div>             
-                    <h3  class="italic">Most-Loved <span class="bold">Products</span></h3>
-                </div>
-                <div>
-                    <div class="owl-carousel owl-theme products">
-                        <div><img src="images/blue-silk-dress.jpeg">
+        	<section class="padding-top-10 text-center text-size-up">            
+                <h3  class="italic text-size-up-h3">Most-Loved <span class="bold">Products</span></h3>
+                    
+                <div class="owl-carousel owl-theme products colorgrey bold padding-top-10">
+                    <div class="padding-bot">
+                        <img src="assets/images/stretch-knit-dress.jpg">
                         <p>DRESSES</p>
                         <h4>Stretch Knit Dress</h4>
                         <p>$169.00</p>
-                        </div>
-                    </div>
-                    
+                        <button class="cartbutton">Add to Cart</button>
+                    </div>                 
                     <div>
-                        <img src="">
+                        <img src="assets/images/cotton-blue-shirt.jpg">
                         <p>SHIRTS</p>
                         <h4>Cotton Blue shirt</h4>
                         <p>$89.00</p>
+                        <button class="cartbutton">Add to Cart</button>
                     </div>
-
                     <div>
-                        <img>
+                        <img src="assets/images/checked-stretch-dress.jpg">
                         <p>DRESSES</p>
                         <h4>Checked Stretch Dress</h4>
                         <p>$129.00</p>
+                        <button class="cartbutton">Add to Cart</button>
                     </div>
-
                     <div>
-                        <img>
+                        <img src="assets/images/blue-hipster-backpack.jpg">
                         <p>BAGS</p>
                         <h4>Blue Hipster Back</h4>
                         <p>$69.00</p>
+                        <button class="cartbutton">Add to Cart</button>
                     </div>
-                </div>
+                    <div>
+                        <img src="assets/images/blue-silk-dress.jpg">
+                        <p>DRESSES</p>
+                        <h4>Blue Silk Dress</h4>
+                        <p>$149.00</p>
+                        <button class="cartbutton">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="assets/images/pink-dotted-dress.jpg">
+                        <p>DRESSES</p>
+                        <h4>Pink Dotted Dress</h4>
+                        <p>$119.00</p>
+                        <button class="cartbutton">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="assets/images/cotton-yellow-tshirt.jpg">
+                        <p>SHIRTS</p>
+                        <h4>Cotton Yellow T-Shirt</h4>
+                        <p>$49.00</p>
+                        <button class="cartbutton">Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="assets/images/demin-overall-shorts.jpg">
+                        <p>SHORTS</p>
+                        <h4>Denim Overall Shorts</h4>
+                        <p>$69.00</p>
+                        <button class="cartbutton">Add to Cart</button>
+                    </div>
+                </div>   
             </section>
         	<section>
                     <h3  class="italic white">Sign-up for <span class="bold">Updates</span></h3>
@@ -99,7 +125,6 @@
             </section>
         </main>
         	<footer>
-                <script src="owlcarousel/owl.carousel.min.js"></script>
                 <div class="address address-mobile left">
                     <address>
                     <p>© 2016 Aloha Apparel Co.</p>
@@ -118,6 +143,7 @@
                         <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
                     </ul>
                 </div>
+                <script src="slider/owl.carousel.min.js"></script>
             </footer>
 
     </body>
