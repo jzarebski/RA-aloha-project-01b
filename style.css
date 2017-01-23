@@ -47,6 +47,14 @@ p {
 	font-size:1.25rem;
 }
 
+.address ul {
+	color:white;
+	font-family: "raleway", "san-serif";
+	text-align:center;
+
+		
+}
+
 /****************/
 /* TEXT STYLING */
 /****************/
@@ -114,6 +122,9 @@ h1 {
 	border-top:2px solid rgb(215,215,215);
 }
 
+.border-top-med {
+	border-top: 10px solid white;
+}
 /*********************/
 /* FLEX BOXES HEADER */
 /*********************/
@@ -180,6 +191,14 @@ h1 {
 
 }
 
+.address-footer{ 
+display: flex;
+flex-direction: column;
+font-family:"raleway";
+align-items: center;
+text-align:center;
+}
+
 /*********************/
 /* BACKGROUND IMAGES */
 /*********************/
@@ -189,6 +208,15 @@ h1 {
 	background: linear-gradient(rgba(0,0,0,0.25) 100%,transparent), url("assets/images/banner-girl.png") center bottom no-repeat, url("assets/images/flower-bkgd.jpg") repeat-x;
 	background-size: contain, auto 90%, cover;	
 	
+}
+
+#wave {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:	url("assets/images/wave-bkgd.jpg") center bottom no-repeat;
+	min-height: 42vh;
+	padding-bottom: 3vh;
 }
 
 /***************/
@@ -230,13 +258,92 @@ h1 {
 	padding-top:10%;
 }
 
+.padding-top-30 {
+	padding-top:30%;
+}
+
 .padding-bot{
 	padding-bottom: 5%
 }
 
-/*****************/
-/* MARGINS RULES */
-/*****************/
+.padding-left {
+	padding-left:2%;
+}
+
+.padding-top-bot-15 {
+	padding:15px 0px;
+}
+
+.padding-10 {
+	padding:10px;
+}
+
+/**********************/
+/* SOCIAL MEDIA RULES */
+/**********************/
+
+.mobile-align li{
+	margin: 2vh;
+}
+
+.text {
+
+}
+
+.socialicons{
+	text-align: center;
+
+}
+
+
+.socialicons li{
+	float: left;
+}
+
+.mobile {
+	display:none;
+	padding-top:5%;
+	text-decoration: none;
+	color:white;
+}
+
+.fa {
+	color:white;
+}
+
+
+/*************/
+/*  SUBFORM  */
+/*************/
+
+.subform {
+	background-color:white;
+	border-radius:25px;
+	width:100%;
+	padding:4px;
+	display:inline-block;
+
+}
+
+input[type=text] {
+	float:left
+	width:65%;
+	background:none;
+	border:none;
+	padding:9px ;
+	display:inline-block;
+
+}
+
+input[type=submit] {
+	float:right;
+	width:30%;
+	border-radius:25px;
+	background-color:rgb(226,87,76);
+	padding:5px;
+	line-height: 1.5rem;
+}
+
 
 
 /****************/
@@ -246,3 +353,49 @@ h1 {
 .products img{
 	width:50%;
 }
+
+/*********************/
+
+/* footer section*/
+.backgroundblack{
+	background-color:black;
+}
+
+/*Address
+.address-mobile {
+	padding: 15px 20px;
+	font-size: 1rem;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+/* Social Media Icons
+.social-footer ul {
+
+}
+
+.socialicons {
+	padding-top: 5px;
+	margin-left: 3em;
+	line-height: 1.5rem;
+	text-decoration:none;
+
+}
+.socialicons a {
+	text-decoration:none
+}
+.socialicons span {
+	font-family: "raleway";
+}
+
+.fa {
+	color:white;
+
+}
+
+ul {
+	padding-right: 2em
+}
+*/
